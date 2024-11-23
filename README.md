@@ -1,11 +1,1 @@
-Overview
-This project automates the generation of academic timetables for educational institutions. It schedules lectures and labs for multiple divisions while ensuring conflict-free assignments of subjects and faculties. The program offers user-friendly inputs, displays the timetables in the console, and exports them to a color-coded Excel file.
-
-Features
-1) Custom Inputs: Configure divisions, time slots, subjects, faculties, and labs.
-2) Randomized Scheduling: Ensures balanced subject and faculty distribution.
-3) Conflict-Free Assignments: Prevents faculty overlap across slots.
-4) Export to Excel: Saves timetables in a formatted, color-coded Excel file.
-    Yellow: Lunch breaks.
-    Green: Lab sessions.
-    Blue: Regular subjects.
+This project automates the creation of academic timetables for educational institutions, ensuring conflict-free scheduling of subjects, faculties, and labs across multiple divisions. The program allows users to input division names, time slots, subjects, and faculties, then generates randomized yet balanced timetables that avoid faculty overlaps. Timetables are displayed in the console for quick review and saved as a formatted Excel file, featuring color coding for easy interpretation—yellow for lunch breaks, green for lab sessions, and blue for regular subjects. With its user-friendly interface and robust scheduling logic, this tool simplifies timetable management. It requires Python and libraries like pandas and openpyxl for operation. Users can clone the repository, run the script, and follow on-screen prompts to create and export timetables effortlessly.
